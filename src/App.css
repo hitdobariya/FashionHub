@@ -1,0 +1,119 @@
+.dropdown {
+    float:left;
+    /* overflow: hidden; */
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    right: 0;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    transition: all .5s,  2s .5s linear;
+    transition: all .5s,  2s .5s linear;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.dropdown-Blog {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .dropdown-Blog a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    transition: all .5s,  2s .5s linear;
+    transition: all .5s,  2s .5s linear;
+    min-width: 160px;
+  }
+  
+  .dropdown-Blog a:hover {
+    background-color: #ddd;
+    
+  }
+
+  .dropdown:hover .dropdown-Blog {
+    display: block;
+}
+
+/* 
+body{
+  font-family: "DM Sans";
+} */
+/* .bg-box {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+} */
+
+/* .mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  background-color: black;
+} */
+
+
+/* .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  left: -22px;
+}
+.dropdown:hover .dropdownmenu{
+  display: block
+}
+
+.dropdownmenu{
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin : top center
+}
+
+
+@keyframes growDown {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+} */
